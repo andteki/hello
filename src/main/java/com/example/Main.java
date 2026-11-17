@@ -10,6 +10,11 @@ public class Main {
             System.out.println("Szám: " + i);
         }
 
+        int j = 0;
+        while (j < 3) {
+            System.out.println("While ciklus: " + j);
+            j++;
+        }
     }
     public void valami() {}
 }
